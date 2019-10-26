@@ -1,0 +1,220 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-image: linear-gradient(to bottom, #390437, #39053a, #3a063d, #3a0741, #3a0944, #482055, #563365, #644776, #867399, #aba0bb, #d3cfdd, #ffffff);
+    background-repeat: no-repeat;
+}
+/* navbar */
+.navbar
+{
+    padding: 1%;
+    margin: none;
+}
+.navbar a{
+    font-weight: bold;
+    padding: 0.5% 3%;
+    vertical-align: middle;
+}
+.navbar  a:hover{
+    font-weight: bold;
+    padding: 0.5% 3%;
+    vertical-align: middle;
+    background-color: #d3cfdd;
+    color: black;
+}
+.navbar img
+{
+    float: left;
+}
+.seachbar
+{
+    float: right;
+}
+/* body premiere page */
+.imageHallMusics{
+    padding: 0 20%;
+}
+.nosCategories{
+    font-size: 36pt;
+    margin: 0;
+    margin-left: 10%;
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+}
+.bouton
+{
+    margin: 0;
+    margin-top: 2%;
+    font-weight: bold;
+    text-align: center;
+}
+.bouton a 
+{
+    font-size: 24pt;   
+    margin: 2%;
+    padding: 1%;
+    color: black;
+}
+.bouton a:hover{
+    color:orange;
+}
+
+/*Body deuxième page*/
+.promo
+{
+    width: 100%;
+    height: 200px;
+    background-color: #d3cfdd;
+    margin: none;
+}
+.promo p 
+{
+    text-align: center;
+    vertical-align: middle;
+    font-size: 24pt;
+    font-weight: bold;
+    padding: 5%;
+}
+.sidebar
+{
+    float: left;
+    padding: none;
+    width: 8%;
+}
+.sidebar p 
+{
+    padding: 0 1%;
+    margin-left: 10%;
+    margin: none;
+}
+
+.sidebar p:hover
+{
+    background-color: #390437;
+    padding: 10%;
+}
+.sidebar a{
+    padding: 10%;
+    margin: none;
+}
+.sidebar a:hover
+{
+    color:gold;
+}
+.sortbar
+{
+    display: flex;
+    background-color: whitesmoke;
+    justify-content: center;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    width: 97.5%;
+    margin-left: 1%; 
+}
+.section
+{
+    float: right;
+    width: 92%;
+}
+.section_body
+{
+    margin: none;
+    padding: none;
+    width: 92%;
+    margin-left: 2%;
+    justify-content: center;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.articles
+{
+    background-color: #ffffff;
+    color: black;
+    width: 30%;
+    height: 200px;
+    padding: 10px;
+    margin: 10px;
+    overflow: hidden;
+}
+.articles img 
+{
+    float: left;
+}
+.voirplus
+{
+    color: black;
+    margin-left: 10%;
+}
+.voirplus:hover{
+    font-weight: bold;
+    color: #390437;
+}
+
+/*Page contact*/
+
+.contactUs
+{
+    width: 50%;
+    padding: 2% 0;
+    margin-right: 10%; 
+    color: #ffffff;
+    text-align: center;
+    float: right;
+    margin-top: 5% ;
+}
+.contactUs .texte
+{
+    display: flex;
+    justify-content: center;
+}
+.contactUs .texte p 
+{
+    margin: 0 2% 1% 2%;
+}
+.horaires
+{
+    display: inline-block;
+    width: 20%;
+    margin-left: 20%;
+    margin-top: -100px;
+    background-color: #644776;
+    color: #ffffff;
+}
+/*Footer*/
+.footer
+{
+    background-color: black;
+    color: white;
+    padding: 0.5%;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    margin: 0;
+}
+.icones
+{
+    float: left;
+}
+.usefulllinks
+{
+    margin: 0px;
+    padding: 0.5%;
+    padding-left: 7%;
+}
+.usefulllinks a{
+    margin: 0 1%;
+}
+/*Communs*/
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.contain
+{
+    margin: 5%;
+    width: 78%;
+}

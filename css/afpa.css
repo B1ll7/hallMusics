@@ -1,0 +1,86 @@
+.body{
+    margin: 10%;
+}
+.section_form input {
+    /* width: 50%; */
+    margin: 5px 0%;
+    background-color: #e8eeef;
+}
+.list {
+    display : flex;
+    flex-direction: column;
+}
+ul li 
+{
+    text-decoration: none;
+    list-style-type: none;
+}
+.section_form
+{
+    width: 100%;
+    display: inline-flex;
+}
+hr
+{
+    margin : 2% 0%;
+    width: 100%;
+    color: #c6e0bc;
+}
+
+.content_afpa 
+{
+    background-color: #f4f7f8;
+    border-color: #8bd0c2;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    width: 80%;
+    height: 460px;
+    padding: 2%;
+    
+}
+.send
+{
+    width: 100%;
+    margin: 0px;
+    height: 40px;
+    background-color: #1abc9c;
+    color: white;
+    font-weight: bold;
+    border : none;
+}
+label
+{
+    font-weight: bold;
+}
+
+.list
+{
+    position : relative;
+    left: 0px;
+    padding-left: 0px; 
+}
+
+.select
+{
+    width: 81.5%;
+    height: 20px;
+    background-color: #e8eeef;
+    margin: 2% 0%;
+}
+
+textarea
+{
+    background-color: #e8eeef;
+    resize: none;
+}
+
+.table {
+    background-color: white;
+    color: black;
+    margin-bottom: 10%;
+}
+.table th{
+    background-color: #1abc9c;
+    font-weight: bold;
+}
